@@ -2,8 +2,6 @@ package org.example;
 
 import java.util.HashMap;
 import java.util.Map;
-import java.util.List;
-import java.util.ArrayList;
 
 public class Convert {
 
@@ -17,7 +15,9 @@ public class Convert {
     public static final int ZERO = 0;
 
     public String convert(int number) {
-        return recupRoman(number, recupNumberRoman());
+        CalculRoman calculRoman = new CalculRoman(number);
+        calculRoman.recupRoman();
+        return calculRoman.getNumberRoman().toString();
     }
 
     private static Map<Integer, String> recupNumberRoman() {
@@ -26,21 +26,6 @@ public class Convert {
         stringMap.put(FIVE_INDIA, FIVE_ROMAN);
         stringMap.put(TEN_INDIA, TEN_ROMAN);
         return stringMap;
-    }
 
-    private static String recupRoman(int number, Map<Integer, String> stringMap) {
-        if (stringMap.containsKey(number + ONE_INDIA)) {
-            return ONE_ROMAN + stringMap.get(number + ONE_INDIA);
-        } else if(number >= TEN_INDIA) {
-            return TEN_ROMAN;
-        } else if (number>= FIVE_INDIA) {
-            return FIVE_ROMAN + addI(number - FIVE_INDIA);
-        }
-        return addI(number);
-
-    }
-
-    private static String addI(int number) {
-        return ONE_ROMAN.repeat(Math.max(ZERO, number));
     }
 }

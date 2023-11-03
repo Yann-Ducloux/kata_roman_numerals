@@ -9,97 +9,97 @@ class ConvertTest {
     @Test
     public void numberI() {
         //GIVEN
-        int one = 1;
-        String numberOne = "I";
+        int numberIndia = 1;
+        String numberRomanExpected = "I";
         Convert convert = new Convert();
         //THEN
-        String tst = convert.convert(one);
+        String numberRomanActual = convert.convert(numberIndia);
 
         //WHEN
-        assertEquals(numberOne, tst);
+        assertEquals(numberRomanExpected, numberRomanActual);
     }
     @Test
     public void numberII() {
         //GIVEN
-        int two = 2;
-        String numberTwo = "II";
+        int numberIndia = 2;
+        String numberRomanExpected = "II";
         Convert convert = new Convert();
         //THEN
-        String tst = convert.convert(two);
+        String numberRomanActual = convert.convert(numberIndia);
 
         //WHEN
-        assertEquals(numberTwo, tst);
+        assertEquals(numberRomanExpected, numberRomanActual);
     }
     @Test
     public void numberIII() {
         //GIVEN
-        int two = 3;
-        String numberTwo = "III";
+        int numberIndia = 3;
+        String numberRomanExpected = "III";
         Convert convert = new Convert();
         //THEN
-        String tst = convert.convert(two);
+        String numberRomanActual = convert.convert(numberIndia);
 
         //WHEN
-        assertEquals(numberTwo, tst);
+        assertEquals(numberRomanExpected, numberRomanActual);
     }
     @Test
     public void numberIV() {
         //GIVEN
-        int two = 4;
-        String numberTwo = "IV";
+        int numberIndia = 4;
+        String numberRomanExpected = "IV";
         Convert convert = new Convert();
         //THEN
-        String tst = convert.convert(two);
+        String numberRomanActual = convert.convert(numberIndia);
 
         //WHEN
-        assertEquals(numberTwo, tst);
+        assertEquals(numberRomanExpected, numberRomanActual);
     }
     @Test
     public void numberV() {
         //GIVEN
-        int two = 5;
-        String numberTwo = "V";
+        int numberIndia = 5;
+        String numberRomanExpected = "V";
         Convert convert = new Convert();
         //THEN
-        String tst = convert.convert(two);
+        String numberRomanActual = convert.convert(numberIndia);
 
         //WHEN
-        assertEquals(numberTwo, tst);
+        assertEquals(numberRomanExpected, numberRomanActual);
     }
     @Test
     public void numberVII() {
         //GIVEN
-        int two = 7;
-        String numberTwo = "VII";
+        int numberIndia = 7;
+        String numberRomanExpected = "VII";
         Convert convert = new Convert();
         //THEN
-        String tst = convert.convert(two);
+        String numberRomanActual = convert.convert(numberIndia);
 
         //WHEN
-        assertEquals(numberTwo, tst);
+        assertEquals(numberRomanExpected, numberRomanActual);
     }
     @Test
     public void numberIX() {
         //GIVEN
-        int two = 9;
-        String numberTwo = "IX";
+        int numberIndia = 9;
+        String numberRomanExpected = "IX";
         Convert convert = new Convert();
         //THEN
-        String tst = convert.convert(two);
+        String numberRomanActual = convert.convert(numberIndia);
 
         //WHEN
-        assertEquals(numberTwo, tst);
+        assertEquals(numberRomanExpected, numberRomanActual);
     }
     @Test
     public void numberX() {
         //GIVEN
-        int two = 10;
-        String numberTwo = "X";
+        int numberIndia = 10;
+        String numberRomanExpected = "X";
         Convert convert = new Convert();
         //THEN
-        String tst = convert.convert(two);
+        String numberRomanActual = convert.convert(numberIndia);
 
         //WHEN
-        assertEquals(numberTwo, tst);
+        assertEquals(numberRomanExpected, numberRomanActual);
     }
 }
