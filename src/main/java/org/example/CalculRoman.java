@@ -22,11 +22,10 @@ public class CalculRoman {
         recupNumberRoman();
     }
 
-    private Map<Integer, String> recupNumberRoman() {
+    private void recupNumberRoman() {
         stringMap = new HashMap<>();
         stringMap.put(TEN_INDIA, TEN_ROMAN);
         stringMap.put(FIVE_INDIA, FIVE_ROMAN);
-        return stringMap;
     }
     public void recupRoman() {
         recupValeurMoinsUn();

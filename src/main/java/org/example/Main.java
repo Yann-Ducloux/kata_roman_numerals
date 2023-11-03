@@ -8,7 +8,7 @@ public class Main {
         System.out.println("nombre à convertir");
 
         String number = scanner.nextLine();
-        Integer numberIndia = Integer.parseInt(number);
+        int numberIndia = Integer.parseInt(number);
         Convert convert = new Convert();
         String numberRomanActual = convert.convert(numberIndia);
         System.out.println(numberRomanActual);
