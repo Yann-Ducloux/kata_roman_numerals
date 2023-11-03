@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a9c8fbb1-1480-4216-bfdf-686171e5c73c" name="Changes" comment="feat: simplification du code.">
+    <list default="true" id="a9c8fbb1-1480-4216-bfdf-686171e5c73c" name="Changes" comment="feat: mini correction.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Convert.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Convert.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/CalculRoman.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/CalculRoman.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -205,7 +204,7 @@
       <workItem from="1699009005606" duration="138000" />
       <workItem from="1699017950108" duration="14000" />
       <workItem from="1699035576634" duration="8023000" />
-      <workItem from="1699043892262" duration="3090000" />
+      <workItem from="1699043892262" duration="3145000" />
     </task>
     <task id="LOCAL-00001" summary="feat ajout des dizaine">
       <option name="closed" value="true" />
@@ -231,7 +230,15 @@
       <option name="project" value="LOCAL" />
       <updated>1699046942009</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="feat: mini correction.">
+      <option name="closed" value="true" />
+      <created>1699047013428</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1699047013428</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -240,6 +247,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="feat ajout des dizaine" />
     <MESSAGE value="feat: simplification du code." />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: simplification du code." />
+    <MESSAGE value="feat: mini correction." />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: mini correction." />
   </component>
 </project>

@@ -11,7 +11,6 @@ public class CalculRoman {
     public static final String FIVE_ROMAN = "V";
     public static final String TEN_ROMAN = "X";
     public static final Integer TEN_INDIA = 10;
-    public static final Integer FOUR_INDIA = 4;
     public static final Integer FIVE_INDIA = 5;
     public static final Integer ONE_INDIA = 1;
     public static final Integer ZERO = 0;
@@ -63,13 +62,6 @@ public class CalculRoman {
     private void addI() {
         if (this.reste<4) {
             numberRoman.append(addI(this.reste));
-        }
-    }
-
-    private void extracted(Integer indiaNumber) {
-        if (this.reste >= indiaNumber) {
-            this.numberRoman.append(stringMap.get(indiaNumber));
-            this.reste -= indiaNumber;
         }
     }
 
