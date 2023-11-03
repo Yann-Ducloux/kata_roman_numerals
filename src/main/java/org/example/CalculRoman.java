@@ -29,11 +29,21 @@ public class CalculRoman {
         return stringMap;
     }
     public void recupRoman() {
-        boolean boRecupValue = true;
+        recupValeurMoinsUn();
+        addLetterDiffrentI();
+        addI();
+        reloadRecupRoman();
+    }
+
+    private void recupValeurMoinsUn() {
         if (stringMap.containsKey(this.reste + ONE_INDIA)) {
             numberRoman.append(ONE_ROMAN).append(stringMap.get(this.reste + ONE_INDIA));
             this.reste = 0;
         }
+    }
+
+    private void addLetterDiffrentI() {
+        boolean boRecupValue = true;
         List<Integer> integerList = new ArrayList<>(stringMap.keySet());
         Collections.reverse(integerList);
         for (int i = 0; i < integerList.size()&& boRecupValue; i++) {
@@ -43,11 +53,17 @@ public class CalculRoman {
                 boRecupValue = false;
             }
         }
-        if (this.reste<4) {
-            numberRoman.append(addI(this.reste));
-        }
+    }
+
+    private void reloadRecupRoman() {
         if (this.reste>4) {
             recupRoman();
+        }
+    }
+
+    private void addI() {
+        if (this.reste<4) {
+            numberRoman.append(addI(this.reste));
         }
     }
 
