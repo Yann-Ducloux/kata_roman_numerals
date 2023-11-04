@@ -1,8 +1,5 @@
 package org.example;
 
-import java.util.HashMap;
-import java.util.Map;
-
 public class Convert {
 
     public String convert(int number) {

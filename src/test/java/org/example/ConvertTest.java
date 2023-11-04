@@ -102,4 +102,28 @@ class ConvertTest {
         //WHEN
         assertEquals(numberRomanExpected, numberRomanActual);
     }
+    @Test
+    public void numberXXIV() {
+        //GIVEN
+        int numberIndia = 24;
+        String numberRomanExpected = "XXIV";
+        Convert convert = new Convert();
+        //THEN
+        String numberRomanActual = convert.convert(numberIndia);
+
+        //WHEN
+        assertEquals(numberRomanExpected, numberRomanActual);
+    }
+    @Test
+    public void numberXXXVIII() {
+        //GIVEN
+        int numberIndia = 38;
+        String numberRomanExpected = "XXXVIII";
+        Convert convert = new Convert();
+        //THEN
+        String numberRomanActual = convert.convert(numberIndia);
+
+        //WHEN
+        assertEquals(numberRomanExpected, numberRomanActual);
+    }
 }
