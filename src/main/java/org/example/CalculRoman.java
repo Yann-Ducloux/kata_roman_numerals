@@ -44,7 +44,6 @@ public class CalculRoman {
         boolean boRecupValue = true;
         List<Integer> integerList = new ArrayList<>(stringMap.keySet());
         Collections.reverse(integerList);
-        integerList.forEach(index -> {});
         for (int i = 0; i < integerList.size() && boRecupValue; i++) {
             if (this.reste >= integerList.get(i)) {
                 this.numberRoman.append(stringMap.get(integerList.get(i)));
